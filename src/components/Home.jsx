@@ -33,7 +33,7 @@ const Home = () => {
             <img src={coverImage} alt="" />
         </div>
       </div>
-    </div>  
+    </div>
   )
 }
 
