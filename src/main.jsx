@@ -8,6 +8,7 @@ import Statistics from './components/Statistics'
 import Applied from './components/Applied'
 import Blog from './components/Blog'
 import ErrorPage from './components/ErrorPage'
+import JobDetails from './components/JobDetails'
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: 'statistics',
         element: <Statistics/>
+      },
+      {
+        path: 'jobs/:id',
+        element: <JobDetails/>
       },
       {
         path: 'applied-jobs',
