@@ -3,25 +3,25 @@
       "category_id": 1,
       "category_name": "Accounting and Finance",
       "img": "https://i.postimg.cc/x1pdXgyr/accounts.png",
-      "dec": "300 Jobs Available"
+      "vacancy": "300 Jobs Available"
     },
     {
       "category_id": 2,
       "category_name": "Creative Design",
       "img": "https://i.postimg.cc/TPWTpx3m/business.png",
-      "dec": "100+ Jobs Available"
+      "vacancy": "100+ Jobs Available"
     },
     {
       "category_id": 3,
       "category_name": "Marketing & Sales",
       "img": "https://i.postimg.cc/cCFpFkJ0/social-Media.png",
-      "dec": "150 Jobs Available"
+      "vacancy": "150 Jobs Available"
     },
     {
       "category_id": 4,
       "category_name": "Engineering Job",
       "img": "https://i.postimg.cc/K8MWT8tZ/chip.png", 
-      "dec": "200 Jobs Available"
+      "vacancy": "200 Jobs Available"
     }
     
   ]

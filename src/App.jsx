@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 import Home from './components/Home';
 import Statistics from './components/Statistics';
 import Category from './components/Category';
+import Jobs from './components/Jobs';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Statistics/>
       <Outlet/>
       <Category/>
+      <Jobs/>
     </div>
   );
 };
