@@ -1,24 +1,18 @@
 import React, { useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
+import bannerImg from '../assets/images/Vector-2.png'
 
 const JobDetails = () => {
-  const [jobInfo, setJobInfo] = useState([]);
-
-  useEffect(() => {
-    fetch("jobs.json")
-      .then((res) => res.json())
-      .then((data) => setJobInfo(data));
-  }, []);
+    const jobData = useLoaderData()
+    console.log(jobData);
   return (
     <div>
-      {jobInfo.map((job) => (
-        <div key={job.id} job={job}>
-          <div className="mb-12">
-            <h4 className="mb-2 text-2xl font-extrabold text-gray-700">
-              {job.title}
-            </h4>
-          </div>
-        </div>
-      ))}
+        <div className="relative mt-12">
+        <h1 className="text-center text-5xl font-bold">Job Details</h1>
+        <div>
+        <img className="absolute inset-y-0 left-0" src={bannerImg} alt="" />
+        </div> 
+        </div>   
     </div>
   );
 };
